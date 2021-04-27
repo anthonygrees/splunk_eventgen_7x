@@ -1,0 +1,10 @@
+063605715280	VolumeReadBytes	VolumeId=[vol-d985b5d1]	120		Bytes	6237627	879976	28555817	10000000
+063605715280	VolumeTotalReadTime	VolumeId=[vol-d985b5d1]	120		Seconds	719	25	510	1117
+063605715280	VolumeQueueLength	VolumeId=[vol-d985b5d1]	120		Count	719	25	510	1117
+063605715280	VolumeWriteOps	VolumeId=[vol-d985b5d1]	120		Count	719	25	510	1117
+063605715280	VolumeTotalWriteTime	VolumeId=[vol-d985b5d1]	120		Seconds	719	25	510	1117
+063605715280	VolumeWriteBytes	VolumeId=[vol-d985b5d1]	120		Bytes	6237627	879976	28555817	10000000
+063605715280	VolumeThroughputPercentage	VolumeId=[vol-d985b5d1]	120		Percent	4.97	0.26	36.62	34.21
+063605715280	VolumeIdleTime	VolumeId=[vol-d985b5d1]	120		Seconds	719	25	510	1117
+063605715280	VolumeReadOps	VolumeId=[vol-d985b5d1]	120		Count	719	25	510	1117
+063605715280	VolumeReadBytes	VolumeId=[vol-7a604ebd]	120		Bytes	1357585	414350	21707081	10000000

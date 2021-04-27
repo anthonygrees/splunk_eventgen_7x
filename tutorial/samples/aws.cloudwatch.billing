@@ -1,0 +1,11 @@
+{"account_id": "729374374","metric_name": "EstimatedCharges","metric_dimensions": "Currency=[USD],ServiceName=[AWSQueueService]","period": 300,"SampleCount": 1,"Unit": "None","Average": 1.2,"Minimum": 1.2, "Maximum": 1.2, "Sum": 1.2}
+{"account_id": "988321849","metric_name": "EstimatedCharges","metric_dimensions": "Currency=[USD],ServiceName=[AmazonSNS]","period": 300,"SampleCount": 1,"Unit": "None","Average": 0.12,"Minimum": 0.12, "Maximum": 0.12, "Sum": 0.12}
+{"account_id": "063605715280","metric_name": "EstimatedCharges","metric_dimensions": "Currency=[USD],ServiceName=[AmazonCloudWatch]","period": 300,"SampleCount": 1,"Unit": "None","Average": 6.6,"Minimum": 6.6, "Maximum": 6.6, "Sum": 6.6}
+{"account_id": "063605715280","metric_name": "EstimatedCharges","metric_dimensions": "Currency=[USD],ServiceName=[AmazonS3]","period": 300,"SampleCount": 1,"Unit": "None","Average": 11.1,"Minimum": 11.1, "Maximum": 11.1, "Sum": 11.1}
+{"account_id": "432784591","metric_name": "EstimatedCharges","metric_dimensions": "Currency=[USD],ServiceName=[AmazonRDS]","period": 300,"SampleCount": 1,"Unit": "None","Average": 16.3,"Minimum": 16.3, "Maximum": 16.3, "Sum": 16.3}
+{"account_id": "729374374","metric_name": "EstimatedCharges","metric_dimensions": "Currency=[USD],ServiceName=[AmazonSimpleDB]","period": 300,"SampleCount": 1,"Unit": "None","Average": 1.2,"Minimum": 1.2, "Maximum": 1.2, "Sum": 1.2}
+{"account_id": "977474531","metric_name": "EstimatedCharges","metric_dimensions": "Currency=[USD],ServiceName=[AmazonS3]","period": 300,"SampleCount": 1,"Unit": "None","Average": 11.1,"Minimum": 11.1, "Maximum": 11.1, "Sum": 11.1}
+{"account_id": "432784591","metric_name": "EstimatedCharges","metric_dimensions": "Currency=[USD],ServiceName=[AWSDirectoryService]","period": 300,"SampleCount": 1,"Unit": "None","Average": 0.57,"Minimum": 0.57, "Maximum": 0.57, "Sum": 0.57}
+{"account_id": "977474531","metric_name": "EstimatedCharges","metric_dimensions": "Currency=[USD],ServiceName=[AmazonRDS]","period": 300,"SampleCount": 1,"Unit": "None","Average": 16.3,"Minimum": 16.3, "Maximum": 16.3, "Sum": 16.3}
+{"account_id": "729374374","metric_name": "EstimatedCharges","metric_dimensions": "Currency=[USD],ServiceName=[AmazonEC2]","period": 300,"SampleCount": 1,"Unit": "None","Average": 206,"Minimum": 206, "Maximum": 206, "Sum": 206}
+

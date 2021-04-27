@@ -1,0 +1,10 @@
+063605715280	Count	ApiName=[ItemStore]	300		Count	5	2	16	37
+063605715280	Latency	ApiName=[ItemStore]	300		Milliseconds	170	99	983	1595
+063605715280	4XXError	ApiName=[ItemStore]	300		Count	4	1	10	16
+063605715280	5XXError	ApiName=[ItemStore]	300		Count	4	1	10	16
+063605715280	Count	ApiName=[PetStore]	300		Count	7	5	19	38
+063605715280	Latency	ApiName=[PetStore]	300		Milliseconds	117	65	731	1724
+063605715280	4XXError	ApiName=[PetStore]	300		Count	5	1	5	16
+063605715280	5XXError	ApiName=[PetStore]	300		Count	5	1	5	16
+063605715280	Count	ApiName=[splunk_viewer]	300		Count	5	2	13	30
+063605715280	Latency	ApiName=[splunk_viewer]	300		Milliseconds	107	52	705	1254

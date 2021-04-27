@@ -1,0 +1,14 @@
+
+
+
+_time="##time##" account_id="063605715280" metric_name="CPUUtilization" metric_dimensions="InstanceId=[i-df97df7b]" period="6000" SampleCount="80.0" Unit="Percent" Average="39.58" Minimum="30.26" Maximum="31.35" Sum="34.07"
+_time="##time##" account_id="063605715280" metric_name="CPUUtilization" metric_dimensions="InstanceId=[i-93b5c937]" period="6000" SampleCount="80.0" Unit="Percent" Average="34.31" Minimum="35.97" Maximum="38.75" Sum="36.79"
+_time="##time##" account_id="063605715280" metric_name="CPUUtilization" metric_dimensions="InstanceId=[i-d655b2fd]" period="6000" SampleCount="80.0" Unit="Percent" Average="7.2" Minimum="5.0" Maximum="6.98" Sum="5.69"
+_time="##time##" account_id="063605715280" metric_name="CPUUtilization" metric_dimensions="InstanceId=[i-91b5c935]" period="6000" SampleCount="80.0" Unit="Percent" Average="35.18" Minimum="39.04" Maximum="35.69" Sum="37.81"
+_time="##time##" account_id="063605715280" metric_name="CPUUtilization" metric_dimensions="InstanceId=[i-56e2d17e]" period="6000" SampleCount="80.0" Unit="Percent" Average="90.87" Minimum="92.69" Maximum="94.58" Sum="90.85"
+_time="##time##" account_id="063605715280" metric_name="CPUUtilization" metric_dimensions="InstanceId=[i-91b5c935]" period="6000" SampleCount="80.0" Unit="Percent" Average="35.18" Minimum="39.04" Maximum="35.69" Sum="37.81"
+_time="##time##" account_id="063605715280" metric_name="CPUUtilization" metric_dimensions="InstanceId=[i-cfc82e03]" period="6000" SampleCount="80.0" Unit="Percent" Average="7.64" Minimum="7.3" Maximum="1.38" Sum="7.1"
+_time="##time##" account_id="063605715280" metric_name="CPUUtilization" metric_dimensions="InstanceId=[i-cc151fe4]" period="6000" SampleCount="80.0" Unit="Percent" Average="98.13" Minimum="94.82" Maximum="95.49" Sum="98.96"
+_time="##time##" account_id="063605715280" metric_name="CPUUtilization" metric_dimensions="InstanceId=[i-df97df7b]" period="6000" SampleCount="80.0" Unit="Percent" Average="39.58" Minimum="30.26" Maximum="31.35" Sum="34.07"
+_time="##time##" account_id="063605715280" metric_name="CPUUtilization" metric_dimensions="InstanceId=[i-93b5c937]" period="6000" SampleCount="80.0" Unit="Percent" Average="34.31" Minimum="35.97" Maximum="38.75" Sum="36.79"
+
