@@ -200,182 +200,183 @@ token.4.replacement = $SPLUNK_HOME/etc/apps/tutorial/samples/current_state.sampl
 ## Code Commit
 ##
 
-# [aws.code.commit]
-# index = main
-# interval = 80
-# count = 3
-# earliest = -5m
-# latest = now
-# sourcetype = awscodecommit
+[aws.code.commit]
+index = main
+interval = 80
+count = 3
+earliest = -5m
+latest = now
+sourcetype = awscodecommit
+# timezone = +1100
 
-# token.0.token = (##start_time##)
-# token.0.replacementType = timestamp
-# token.0.replacement = %Y-%b-%dT%H:%M:%S
+token.0.token = (##start_time##)
+token.0.replacementType = timestamp
+token.0.replacement = %Y-%b-%dT%H:%M:%S
 
-# token.1.token = (##name##)
-# token.1.replacementType = file
-# token.1.replacement = $SPLUNK_HOME/etc/apps/tutorial/samples/host_name.sample
+token.1.token = (##name##)
+token.1.replacementType = file
+token.1.replacement = $SPLUNK_HOME/etc/apps/tutorial/samples/host_name.sample
 
-# token.2.token = (##random1##)
-# token.2.replacementType = file
-# token.2.replacement = $SPLUNK_HOME/etc/apps/tutorial/samples/random1.sample
+token.2.token = (##random1##)
+token.2.replacementType = file
+token.2.replacement = $SPLUNK_HOME/etc/apps/tutorial/samples/random1.sample
 
-# token.3.token = (##random2##)
-# token.3.replacementType = file
-# token.3.replacement = $SPLUNK_HOME/etc/apps/tutorial/samples/random2.sample
+token.3.token = (##random2##)
+token.3.replacementType = file
+token.3.replacement = $SPLUNK_HOME/etc/apps/tutorial/samples/random2.sample
 
 ##
 ## AWS Web App Firewall
 ##
 
-# [aws.waf]
-# index = main
-# interval = 30
-# count = 10
-# earliest = -2m
-# latest = now
-# sourcetype = aws:waf
+[aws.waf]
+index = main
+interval = 30
+count = 10
+earliest = -2m
+latest = now
+sourcetype = aws:waf
 
-# token.0.token = (##timestamp##)
-# token.0.replacementType = timestamp
-# token.0.replacement = %s
+token.0.token = (##timestamp##)
+token.0.replacementType = timestamp
+token.0.replacement = %s
 
 ##
 ## AWS App Data
 ##
 
-# [aws.cloudwatch.ec2]
-# index = main
-# interval = 30
-# count = 10
-# earliest = -2m
-# latest = now
-# sourcetype = aws:cloudwatch
-# source = ap-southeast-1:AWS/EC2
+[aws.cloudwatch.ec2]
+index = main
+interval = 30
+count = 10
+earliest = -2m
+latest = now
+sourcetype = aws:cloudwatch
+source = ap-southeast-1:AWS/EC2
 
-# token.0.token = (##time##)
-# token.0.replacementType = timestamp
-# token.0.replacement = %Y-%m-%dT%H:00:%S.000Z
+token.0.token = (##time##)
+token.0.replacementType = timestamp
+token.0.replacement = %Y-%m-%dT%H:00:%S.000Z
 
-# [aws.cloudwatch.ebs]
-# index = main
-# interval = 30
-# count = 10
-# earliest = -2m
-# latest = now
-# sourcetype = aws:cloudwatch
-# source = ap-southeast-1:AWS/EBS
+[aws.cloudwatch.ebs]
+index = main
+interval = 30
+count = 10
+earliest = -2m
+latest = now
+sourcetype = aws:cloudwatch
+source = ap-southeast-1:AWS/EBS
 
-# [aws.cloudwatch.billing]
-# index = main
-# interval = 30
-# count = 10
-# earliest = -2m
-# latest = now
-# sourcetype = aws:cloudwatch
-# source = us-east-1:AWS/Billing
+[aws.cloudwatch.billing]
+index = main
+interval = 30
+count = 10
+earliest = -2m
+latest = now
+sourcetype = aws:cloudwatch
+source = us-east-1:AWS/Billing
 
-# token.0.token = (##time##)
-# token.0.replacementType = timestamp
-# token.0.replacement = %Y-%m-%dT%H:00:%S.000Z
+token.0.token = (##time##)
+token.0.replacementType = timestamp
+token.0.replacement = %Y-%m-%dT%H:00:%S.000Z
 
-# [aws.cloudwatch.apigateway]
-# index = main
-# interval = 30
-# count = 10
-# earliest = -2m
-# latest = now
-# sourcetype = aws:cloudwatch
-# source = ap-southeast-1:AWS/ApiGateway
+[aws.cloudwatch.apigateway]
+index = main
+interval = 30
+count = 10
+earliest = -2m
+latest = now
+sourcetype = aws:cloudwatch
+source = ap-southeast-1:AWS/ApiGateway
 
-# token.0.token = (##time##)
-# token.0.replacementType = timestamp
-# token.0.replacement = %Y-%m-%dT%H:00:%S.000Z
+token.0.token = (##time##)
+token.0.replacementType = timestamp
+token.0.replacement = %Y-%m-%dT%H:00:%S.000Z
 
-# [aws.cloudwatch.elb]
-# index = main
-# interval = 30
-# count = 10
-# earliest = -2m
-# latest = now
-# sourcetype = aws:cloudwatch
-# source = us-east-1:AWS/ELB
+[aws.cloudwatch.elb]
+index = main
+interval = 30
+count = 10
+earliest = -2m
+latest = now
+sourcetype = aws:cloudwatch
+source = us-east-1:AWS/ELB
 
-# [aws.config.notification.create]
-# index = main
-# interval = 30
-# count = 10
-# earliest = -2m
-# latest = now
-# sourcetype = aws:config:notification
-# source = eventgen
+[aws.config.notification.create]
+index = main
+interval = 30
+count = 10
+earliest = -2m
+latest = now
+sourcetype = aws:config:notification
+source = eventgen
 
-# token.0.token = (##time##)
-# token.0.replacementType = timestamp
-# token.0.replacement = %Y-%m-%dT%H:00:%S.000Z
+token.0.token = (##time##)
+token.0.replacementType = timestamp
+token.0.replacement = %Y-%m-%dT%H:00:%S.000Z
 
-# [aws.config.notification.delete]
-# index = main
-# interval = 30
-# count = 10
-# earliest = -2m
-# latest = now
-# sourcetype = aws:config:notification
-# source = eventgen
+[aws.config.notification.delete]
+index = main
+interval = 30
+count = 10
+earliest = -2m
+latest = now
+sourcetype = aws:config:notification
+source = eventgen
 
-# token.0.token = (##time##)
-# token.0.replacementType = timestamp
-# token.0.replacement = %Y-%m-%dT%H:00:%S.000Z
+token.0.token = (##time##)
+token.0.replacementType = timestamp
+token.0.replacement = %Y-%m-%dT%H:00:%S.000Z
 
-# [aws.config.notification.update]
-# index = main
-# interval = 30
-# count = 10
-# earliest = -2m
-# latest = now
-# sourcetype = aws:config:notification
-# source = eventgen
+[aws.config.notification.update]
+index = main
+interval = 30
+count = 10
+earliest = -2m
+latest = now
+sourcetype = aws:config:notification
+source = eventgen
 
-# token.0.token = (##time##)
-# token.0.replacementType = timestamp
-# token.0.replacement = %Y-%m-%dT%H:00:%S.000Z
+token.0.token = (##time##)
+token.0.replacementType = timestamp
+token.0.replacement = %Y-%m-%dT%H:00:%S.000Z
 
-# [aws.cloudtrail.map]
-# index = main
-# interval = 30
-# count = 10
-# earliest = -2m
-# latest = now
-# sourcetype = aws:cloudtrail
-# source = eventgen
+[aws.cloudtrail.map]
+index = main
+interval = 30
+count = 10
+earliest = -2m
+latest = now
+sourcetype = aws:cloudtrail
+source = eventgen
 
-# token.0.token = (##time##)
-# token.0.replacementType = timestamp
-# token.0.replacement = %Y-%m-%dT%H:00:%S.000Z
+token.0.token = (##time##)
+token.0.replacementType = timestamp
+token.0.replacement = %Y-%m-%dT%H:00:%S.000Z
 
-# [aws.description.vpcs]
-# index = main
-# interval = 30
-# count = 10
-# earliest = -2m
-# latest = now
-# sourcetype = aws:description
-# source = ap-southeast-1.vpcs
+[aws.description.vpcs]
+index = main
+interval = 30
+count = 10
+earliest = -2m
+latest = now
+sourcetype = aws:description
+source = ap-southeast-1.vpcs
 
-# [aws.description.instances]
-# index = main
-# interval = 30
-# count = 10
-# earliest = -2m
-# latest = now
-# sourcetype = aws:description
-# source = ap-southeast-1.ec2_instances
+[aws.description.instances]
+index = main
+interval = 30
+count = 10
+earliest = -2m
+latest = now
+sourcetype = aws:description
+source = ap-southeast-1.ec2_instances
 
-# [aws.description.ec2volumes]
-# index = main
-# interval = 30
-# count = 10
-# earliest = -2m
-# latest = now
-# sourcetype = aws:description
-# source = ap-southeast-1.ec2_volumes
+[aws.description.ec2volumes]
+index = main
+interval = 30
+count = 10
+earliest = -2m
+latest = now
+sourcetype = aws:description
+source = ap-southeast-1.ec2_volumes
