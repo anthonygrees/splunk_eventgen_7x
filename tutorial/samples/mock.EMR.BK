@@ -1,0 +1,5 @@
+123456,##time##,Patient_ID_10067,Paxton,Dane,1/1/1936,85,Senior,Male,"5'10""",177.8,280,127,Extremely Obese,80100,12:22,12:45,Stomach Pain,,,,13:32,47m,13:45,Imaging,14:00,Radiology,14:40,15:00,Gas,15:00,,,,,16:00,17:00,4h 28m,I
+123457,##time##,Patient_ID_10068,Holden ,Smith,1/1/1927,94,Senior,Male,"5'7""",170.1,260,118,Extremely Obese,80101,12:30,13:00,Chest Pain,I,14:00,1h 00m,,,,Lab ,,,,,Covid-19,,I,ICU,Sepsis,,,,,
+123458,##time##,Patient_ID_10069,Nas,Hansen,1/1/1950,71,Senior,Male,"6'0""",182.8,300,136,Extremely Obese,80102,9:15,9:50,Abdominal Pain,I,11:33,2h 18m,,,,,,,,,,,,,,,,,,
+123459,##time##,Patient_ID_10070,Simon,Ivanov,1/1/1931,90,Senior,Male,5'8'',172.7,260,118,Extremely Obese,80103,13:10,13:16,Ear Pain,,,,13:30,14m,13:50,Imaging,13:40,,14:30,14:37,Foreign Object,14:42,I,ICU,,,14:44,14:59,1h 49m,
+123456,##time##,Patient_ID_10067,Paxton,Dane,1/1/1936,85,Senior,Male,"5'10""",177.8,280,127,Extremely Obese,80100,12:00,12:50,Stomach Pain,,,,13:20,30m,13:42,Imaging ,13:59,Radiology,14:15,14:45,Ulcer,14:56,,,,,15:00,15:28,3h 28m,I
